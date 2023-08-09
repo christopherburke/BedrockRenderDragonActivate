@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Enable Defered Tech Preview Basic!\nVersion: 0.1\nBy ChristopherBurke",
+        "name": "Basic Deferred Tech Preview",
+        "uuid": "3e88a488-3573-11ee-be56-0242ac120002",
+        "version": [0, 1, 0],
+        "min_engine_version": [1, 20, 30]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "3e88a816-3573-11ee-be56-0242ac120002",
+            "version": [0, 1, 0]
+        }
+	],
+    "capabilities" : [
+            "pbr"
+    ]			
+}
