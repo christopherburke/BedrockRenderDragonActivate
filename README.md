@@ -25,3 +25,11 @@ This shader pack is the most basic one that can activate Minecraft's Render Drag
 - In the settings menu, select Vido, then scroll all the way to the bottom where under 'Graphics Mode' select the 'Deferred Technical Preview' option.
 
 - Go back to the game and enjoy your newly activated Shader with shadows, sky color changes, etc..
+
+## Many Artifacts
+Despite this being the most basic Render Dragon pipeline shader pack possible, there are still lots of artifacts. Especially underwater and in caves during the day as light will leak into cave and look corrupted. Also, sometimes there can be pauses and crashes.
+
+## Next Steps
+If you want to try awesome shader packs that include all the PBR textures that allow blocks with reflections, emission, and smoothness characteristics then I recommend googling how to download the following.
+- The base 'Vanilla-RTX-v2.5.1.mcpack' as well as 'Vanilla-RTX-textured-water-addon-v2.5.mcpack' and 'Vanilla-RTX-3d-stone-addon-v2.5.mcpack'
+- Poggy's Beta Shader
