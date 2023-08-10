@@ -1,7 +1,10 @@
 # BedrockRenderDragonActivate
 Activate Minecraft Bedrocks Deferred Technical Preview Shader
 
-This shader pack is the most basic one that can activate Minecraft's Render Dragon graphics engine. Minecraft are calling this preview lighting pipeline the 'Deferred Technical Preview'. Here is [Minecraft's news release](https://www.minecraft.net/en-us/creator/article/new-render-dragon-features-creators) with more information. This shader pack does not contain any textures and only activates the Render Dragon lighting preview and simulates Sun and Moon lighting changes, provides shadows, and blooming effects. Since there are no PBR textures in this shader pack, effects like reflection or emission from blocks are not present. I definitely recommend this shader pack if you want to see how your hardware performs with the lighting shadows of this new rendering pipeline. Any other shader pack you use will have more features like PBR textures that may cause more lag. The Sun and Moon lighting effects are taken directly from [Minecraft's Deferred Lighting Beginner Tutorial](https://learn.microsoft.com/en-us/minecraft/creator/documents/deferredlighting)
+This shader pack is the most basic one that can activate Minecraft's Render Dragon graphics engine. Minecraft are calling this preview lighting pipeline the 'Deferred Technical Preview'. Here is [Minecraft's news release](https://www.minecraft.net/en-us/creator/article/new-render-dragon-features-creators) with more information. This shader pack does not contain any textures and only activates the Render Dragon lighting preview and simulates Sun and Moon lighting changes, provides shadows, and blooming effects. Since there are no PBR textures in this shader pack, effects like reflection or emission from blocks are not present. I definitely recommend this shader pack if you want to see how your hardware performs with the lighting shadows of this new rendering pipeline. Any other shader pack you use will have more features like PBR textures that may cause more lag. The Sun and Moon lighting effects for this most basic shader are taken directly from [Minecraft's Deferred Lighting Beginner Tutorial](https://learn.microsoft.com/en-us/minecraft/creator/documents/deferredlighting)
+
+![](screenshots/FloatVillage.png)
+![](screenshots/NightVillageCow.png)
 
 ## Installation:
 - Make sure you are on a beta/preview version of Bedrock Minecraft V1.20.30.20 or higher for Windows, Android, or Xbox. [Instructions](https://www.minecraft.net/en-us/article/how-get-minecraft-betas) for joining the beta for each device is provided.
@@ -26,8 +29,11 @@ This shader pack is the most basic one that can activate Minecraft's Render Drag
 
 - Go back to the game and enjoy your newly activated Shader with shadows, sky color changes, etc..
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 ## Many Artifacts
 Despite this being the most basic Render Dragon pipeline shader pack possible, there are still lots of artifacts. Especially underwater and in caves during the day as light will leak into cave and look corrupted. Also, sometimes there can be pauses and crashes.
+![](screenshots/CaveLightLeakingIn.png)
 
 ## Next Steps
 If you want to try awesome shader packs that include all the PBR textures that allow blocks with reflections, emission, and smoothness characteristics then I recommend googling how to download the following.
